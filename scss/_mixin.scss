@@ -1,0 +1,48 @@
+@mixin position($pos, $y, $x) {
+    position: absolute;
+
+    @if $pos=='tl' {
+        left: $x;
+        top: $y;
+    }
+
+    @else if $pos=='tr' {
+        right: $x;
+        top: $y;
+    }
+
+    @else if $pos=='bl' {
+        left: $x;
+        bottom: $y;
+    }
+
+    @else if $pos=='br' {
+        right: $x;
+        bottom: $y;
+    }
+}
+
+@mixin center-text($value) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $value;
+}
+
+@mixin flex($value, $value2) {
+    display: flex;
+    align-items: $value;
+    justify-content: $value2;
+}
+
+@mixin button-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 600;
+}

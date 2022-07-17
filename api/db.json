@@ -1,0 +1,142 @@
+{
+    "introduce-list-1": [
+        { 
+            "id": 1, 
+            "name": "Land Mapping", 
+            "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+        }, 
+        {
+          "id": 2, 
+            "name": "Room Planning", 
+            "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+        }, 
+        {
+          "id": 3, 
+            "name": "Corporate Offices", 
+            "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+        }, 
+        {
+          "id": 4, 
+            "name": "Contract Administration", 
+            "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+        }, 
+        {
+          "id": 5, 
+            "name": "Home Planning", 
+            "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+        }
+    ],
+    "introduce-list-2": [
+      { 
+          "id": 1, 
+          "name": "Technical Design", 
+          "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+      }, 
+      {
+        "id": 2, 
+          "name": "Planning Process", 
+          "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+      }, 
+      {
+        "id": 3, 
+          "name": "On-Site Assistance", 
+          "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+      }, 
+      {
+        "id": 4, 
+          "name": "Visualizations", 
+          "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+      }, 
+      {
+        "id": 5, 
+          "name": "Team Coordination", 
+          "description": "This is a semi-thorough description of what this service entails, how it's accomplished, what clients can expect, and how long it might take."
+      }
+  ],
+  "manager": [
+    {
+      "id": 1,
+      "avatar": "/img/COMP+pexels-vijay-sadasivuni-3833370.jpg",
+      "name": "Gerard Stone",
+      "describe": "A natural craftsman, Gerard is the driving creative force behind our work. From concept, to testing, to execution, his thorough and nuanced approach yields amazing results for our clients.",
+      "responsibility": "LEAD DESIGNER"
+    },
+    {
+      "id": 2,
+      "avatar": "/img/COMP+pexels-elīna-arāja-3317936.jpg",
+      "name": "Caitlyn Zeiss",
+      "describe": "Caitlyn started Handshake in her senior year of college, determined to pioneer a new way of crafting livable spaces. She leads our teams with clarity, and brings a fresh perspective to each project.",
+      "responsibility": "FOUNDER & CEO"
+    },
+    {
+      "id": 3,
+      "avatar": "/img/COMP+pexels-gryffyn-m-5866150.jpg",
+      "name": "Clark Rosenberg",
+      "describe": "The one who you’ll be interacting most with, Clark is our social champion — his tenacious kindness is only matched by his love of design. Every project we take on is expertly led by Clark and his team.",
+      "responsibility": "ACCOUNT MANAGER"
+    }
+  ],
+  "silder": [
+    {
+      "id": 1,
+      "img": "../img/sl1.jpg",
+      "name": "Lato House",
+      "year": 2021
+    },
+    {
+      "id": 2,
+      "img": "../img/sl2.jpg",
+      "name": "Astro Café",
+      "year": 2022
+    },
+    {
+      "id": 3,
+      "img": "../img/sl3.jpg",
+      "name": "Du Ponte Residence",
+      "year": 2018
+    },
+    {
+      "id": 4,
+      "img": "../img/sl4.jpg",
+      "name": "Brady Residence",
+      "year": 2020
+    },
+    {
+      "id": 5,
+      "img": "../img/sl5.jpg",
+      "name": "Open Coworking",
+      "year": 2019
+    },
+    {
+      "id": 6,
+      "img": "../img/sl6.jpg",
+      "name": "Mercury Interios",
+      "year": 2021
+    },
+    {
+      "id": 7,
+      "img": "../img/sl7.jpg",
+      "name": "The Meridien",
+      "year": 2022
+    },
+    {
+      "id": 8,
+      "img": "../img/sl8.jpg",
+      "name": "Orwell Hill",
+      "year": 2018
+    },
+    {
+      "id": 9,
+      "img": "../img/sl9.jpg",
+      "name": "Zellar Residence",
+      "year": 2021
+    }
+  ],
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }

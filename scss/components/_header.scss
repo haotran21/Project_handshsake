@@ -1,0 +1,107 @@
+header {
+    width: 100%;
+    margin-bottom: 74px;
+    .navbar {
+        padding: 4vh 3vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+
+        .navbar_menu {
+            width: 33%;
+            justify-content: flex-start;
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    margin: 0 20px;
+
+                    a {
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+
+        .navbar_logo {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar_social {
+            width: 33%;
+            justify-content: flex-end;
+            display: inline-flex;
+
+            ul {
+                display: flex;
+
+                li {
+                    margin: 0 10px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .banner {
+        padding: 0 94px;
+
+        .banner_heading {
+            margin: 80px 94px -50px;
+            font-size: 80px;
+            text-align: center;
+            z-index: 999;
+
+            h1 {
+                line-height: 150px;
+                font-family: 'Noto Sans', sans-serif;
+            }
+        }
+
+        .banner_img {
+            text-transform: uppercase;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .image-wrapper {
+                width: 46%;
+                z-index: -1;
+
+                .content-img {
+                    width: 100%;
+                    height: 682px;
+                    background-image: url(/img/banner.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                }
+            }
+
+            .banner-scroll {
+                width: 27%;
+                margin: 0 0 0 30px;
+            }
+
+            .banner-text {
+                width: 27%;
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 30px 0 0;
+
+                p {
+                    text-align: end;
+                }
+
+            }
+        }
+
+    }
+
+}
